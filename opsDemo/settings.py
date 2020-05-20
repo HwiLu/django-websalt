@@ -147,7 +147,7 @@ SIMPLEUI_CONFIG = {
         'icon': 'fas fa-laptop-code',
         'models': [{
             'name': 'web-salt',
-            'url': 'index.html',
+            'url': '/ops/templates/index.html',
             'icon': 'fas fa-robot'
         }]
     }]
@@ -161,3 +161,9 @@ SIMPLEUI_ICON = {
     '系统管理': 'fab fa-apple',
     '员工管理': 'fas fa-user-tie'
 }
+
+SIMPLEUI_DEFAULT_THEME = 'admin.lte.css'
+
+#关闭登录页粒子动画
+SIMPLEUI_LOGIN_PARTICLES = False
+SIMPLEUI_LOGO = '/static/admin/img/logo.png'
